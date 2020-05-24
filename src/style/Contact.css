@@ -1,0 +1,101 @@
+@media only screen and (max-width: 1026px) {
+    .section-contact .fa, .section-contact .fab {
+        font-size: 2.5rem;
+    }
+    .section-contact {
+        grid-column: 1;
+        grid-row: 5;
+        width: 100%;
+        align-content: center;
+        text-align: center;
+        display: grid;
+        color: white;
+        grid-template-rows: 1fr;
+
+        grid-template-columns: 1fr;
+        background-color: teal;
+    }
+    .contact-img {
+        grid-area: contact-img;
+        height: 100%;
+        grid-row: 1;
+        grid-column: 1 ;
+
+        width: 100%;
+    }
+    .contact-img img {
+        width: 100%;
+        bottom: 0;
+        height: 100%;
+        display: block;
+    }
+    .contact-title {
+        text-align: center;
+        font-size: 80px;
+    }
+    .contact-link {
+        grid-area: contact-desc;
+        font-size: 40px;
+    }
+
+    
+    .contact-desc {
+        grid-area: contact-desc;
+        font-size: 1.5rem;
+        grid-row: 3;
+        grid-column: 1 ;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .section-contact .fa, .section-contact .fab {
+        font-size: 2.5rem;
+    }
+    .section-contact {
+        grid-column: 1;
+        grid-row: 5;
+        width: 100%;
+        align-content: center;
+        text-align: center;
+        display: grid;
+        color: white;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "contact-title  contact-img" "contact-desc     contact-img";
+        background-color: teal;
+    }
+    .contact-img {
+        grid-area: contact-img;
+        height: 100%;
+        width: 100%;
+    }
+    .contact-img img {
+        width: 100%;
+        bottom: 0;
+        height: 100%;
+        display: block;
+    }
+    .contact-title {
+        grid-area: contact-title;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .contact-desc {
+        grid-area: contact-desc;
+        font-size: 2rem;
+    }
+}
+
+.section-contact .fa-linkedin {
+    color: rgb(20, 20, 155);
+    margin-top: 20px;
+}
+
+.section-contact .fa-github {
+    color: black;
+    margin-top: 20px;
+}
+
+.section-contact .fa-envelope {
+    color: seashell;
+}

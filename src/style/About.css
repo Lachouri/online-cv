@@ -1,0 +1,172 @@
+@media only screen and (max-width: 1026px) {
+    .section-about {
+        grid-column: 1;
+        grid-row: 2;
+        width: 100%;
+        padding: 50px 0px 20px;
+        text-align: center;
+        display: grid;
+        color: color;
+        grid-template-columns: 1fr;
+        background-color: #BFC0C0;
+    }
+
+    .about-profile-picture {
+        grid-column: 3;
+        grid-row: 1;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .about-profile-picture img {
+        display: inline-block;
+        width: 50%;
+        margin-bottom: 50px;
+        vertical-align: middle;
+        border-radius: 20px;
+    }
+    .about-profile-title {
+        grid-row: 1;
+        grid-column: 1;
+        font-family: 'Dancing Script', cursive;
+        font-size: 90px;
+        text-align: center;
+    }
+    .about-profile-resume {
+        grid-row: 1;
+        grid-column: 1;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .download-box {
+        grid-column: 3;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 3rem;
+
+    }
+    .about-profile-description-box {
+        grid-column: 3;
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-rows: 2;
+        grid-template-columns: 1;
+    }
+    .about-profile-description-box p {
+        font-size: 2rem;
+        text-align: justify;
+
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .section-about {
+        grid-column: 1;
+        grid-row: 2;
+        width: 100%;
+        padding: 20px 0px 20px;
+        display: grid;
+        color: color;
+        grid-template-columns: 10% 40% 40% 10%;
+        background-color: #BFC0C0;
+    }
+    .about-profile-picture {
+        grid-column: 2;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        grid-row: 1;
+        text-align: center;
+    }
+    .about-profile-title {
+        grid-row: 1;
+        grid-column: 1;
+        font-family: 'Dancing Script', cursive;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .about-profile-description-box {
+        grid-column: 3;
+        display: grid;
+        grid-template-rows: 2;
+        grid-template-columns: 1;
+    }
+    .about-profile-picture img {
+        max-width: 200px;
+        display: inline-block;
+        width: 100%;
+        vertical-align: middle;
+        border-radius: 10px;
+    }
+    .about-profile-resume {
+        grid-row: 1;
+        grid-column: 1;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .download-box {
+        grid-column: 3;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 2rem;
+
+    }
+    .about-profile-text {
+        font-size: 20px;
+        grid-column: 1;
+            text-align: center;
+            grid-row: 2;
+    }
+    .about-profile-description-box p {
+        text-align: justify;
+
+    }
+    
+    .section-about .fab {
+        font-size: 2rem;
+
+
+    }
+    
+}
+
+
+a.button5 {
+    display: inline-block;
+    padding: 0.46em 1.6em;
+    border: 0.1em solid #000000;
+    margin: 0 auto;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-left: 10px;
+}
+
+a.button5:hover {
+    color: black;
+    border-color: black;
+}
+
+@media all and (max-width:30em) {
+    a.button5 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+
+a i {
+    transition: transform .3s ease-in-out;
+}
+
+.section-about a:hover i {
+    -moz-transform: scale(1.50);
+    -webkit-transform: scale(1.50);
+    transform: scale(1.50);
+}

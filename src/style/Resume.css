@@ -1,0 +1,264 @@
+@media only screen and (max-width: 1026px) {
+    .year {
+        font-size: 2rem;
+    }
+    .divider {
+        margin-top: 150px;
+    }
+    .section-resume p {
+        font-size: 1rem;
+    }
+    .resume-category-title {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+    .school-category {
+        margin-top: 80px;
+    }
+    .work-category {
+        margin-top: 80px;
+    }
+    .resume-category-desc {
+        font-size: 2.1rem;
+    }
+    .skills p {
+        font-size: 5rem;
+    }
+    .techno-desc {
+        display: none;
+    }
+    .section-resume .fab, .section-resume .fas {
+        font-size: 150px;
+    }
+    .fa-php {
+        font-size: 130px;
+    }
+    .fa-php {
+        font-size: 130px;
+    }
+    .flutter-logo {
+        width: 133px;
+    }
+    .section-resume {
+        grid-column: 1;
+        grid-row: 3;
+        width: 100%;
+        align-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-rows: repeat(4, 0.5fr);
+        row-gap: 100px;
+        background-color: #232C33;
+        color: white;
+    }
+    .school {
+        grid-row: 1;
+        width: 100%;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .school-title {
+        font-size: 80px;
+    }
+    .work {
+        grid-row: 2;
+        text-align: center;
+    }
+    .work-title {
+        font-size: 80px
+    }
+    .formation {
+        grid-row: 3;
+    }
+    .formation-title {
+        font-size: 80px
+    }
+    .skills-title {
+        grid-column: 2;
+        font-size: 80px;
+    }
+    .skills {
+        grid-row: 4;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        padding-bottom: 80px;
+    }
+    .formation-site {
+        font-size: 2.1rem;
+        color: rgb(151, 151, 151);
+    }
+    .title {
+        font-family: 'Oswald', sans-serif;
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .divider {
+        display: none;
+    }
+    .year {
+        font-size: 1.3rem;
+    }
+    .resume-category-title {
+        font-weight: bold;
+        font-size: 1.7rem;
+    }
+    .fab, .fas {
+        font-size: 5rem;
+
+    }
+    .flutter-logo {
+        width: 55px;
+    }
+    .section-resume {
+        grid-column: 1;
+        grid-row: 3;
+        width: 100%;
+        align-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 33% 30% 33%;
+        grid-template-rows: repeat(4, 0.2fr);
+        background-color: #232C33;
+        color: white;
+    }
+    .school {
+        margin-top: 15%;
+        width: 100%;
+        text-align: right;
+        grid-column: 3;
+        grid-row: 1;
+    }
+    .school-title {
+        padding-right: 35%;
+        font-size: 3rem;
+    }
+    .school-category {
+        margin-top: 7%;
+        padding-right: 35%;
+    }
+    .work {
+        width: 100%;
+        text-align: left;
+        grid-row: 1;
+        margin-top: 15%;
+        grid-column: 1;
+    }
+    .work-title {
+        font-size: 3rem;
+        padding-left: 35%;
+    }
+    .work-category {
+        margin-top: 7%;
+        padding-left: 35%;
+    }
+    .formation {
+        vertical-align: middle;
+        text-align: center;
+        grid-column: 2;
+        grid-row: 2;
+        max-height: 630px;
+    }
+    .formation-title {
+        font-size: 3rem;
+    }
+    .skills {
+        grid-row: 4;
+        grid-column: 1;
+        align-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3,100%);
+    }
+   
+    .skills-title {
+        grid-column: 2;
+        grid-row: 1;
+        font-size: 3rem;
+    }
+    .formation-site {
+        color: rgb(151, 151, 151);
+    }
+    .title {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2rem;
+    }
+}
+
+.skills-category-row1-column1 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.skills-category-row1-column2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.skills-category-row1-column3 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.skills-category-row2-column1 {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.skills-category-row2-column2 {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.skills-category-row2-column3 {
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.skills-category-row3-column1 {
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.skills-category-row3-column2 {
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.skills-category-row3-column3 {
+    grid-row: 4;
+    grid-column: 3;
+}
+
+.fa-react {
+    color: #61DBFB;
+}
+
+.fa-js-square {
+    color: yellow;
+}
+
+.fa-node {
+    color: #68A063;
+}
+
+.fa-html5 {
+    color: #F16529;
+}
+
+.fa-css3-alt {
+    color: #3C99DC;
+}
+
+.fa-php {
+    color: #B0B3D6;
+}
+
+.fa-bootstrap {
+    color: #704162;
+}
