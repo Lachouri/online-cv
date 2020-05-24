@@ -24,7 +24,7 @@ export default class About extends React.Component {
 Even though I've always been passionate about literature, I knew this would be my job one day. Thanks to my studies, I learned to work in groups and to listen. The front end turned out to be my favorite part.<br /><br />
 
 
-In the meantime, I was learning Javascript and became interested in React. I like to discover new things and build projects from scratch. It helps me to develop my creativity and my ability to analyse problems and solve them.
+In the meantime, I was learning Javascript and became interested in React. I learned it on my own initiative. I like to discover new things and build projects from scratch. It helps me to develop my creativity and my ability to analyse problems and solve them.
 <br /><br />
 In addition to my personal projects, I watch a lot of training videos to improve my general skills. I challenge myself to learn new things every day and to nourish my curiosity.
 
