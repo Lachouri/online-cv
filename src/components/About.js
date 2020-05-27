@@ -1,6 +1,8 @@
 import React from 'react';
 import "../style/About.css";
 import pdf from '../assets/CV-ACHOURI-Ludivine.pdf'
+import md from '../assets/CV-ACHOURI-Ludivine.md'
+
 import profilePic from '../assets/profile-pic.jpg'
 
 
@@ -33,7 +35,7 @@ In addition to my personal projects, I watch a lot of training videos to improve
 
                         <div className="download-box">
                             <a href={pdf} download="CV-ACHOURI-Ludivine.pdf" className="button5" style={{ backgroundColor: "#BFC0C0" }}><i className="fa fa-download"></i></a>
-                            <a href={pdf} download="CV-ACHOURI-Ludivine.pdf" className="button5" style={{ backgroundColor: "#BFC0C0" }}><i className="fab fa-markdown"></i></a>
+                            <a href={md} download="CV-ACHOURI-Ludivine.md" className="button5" style={{ backgroundColor: "#BFC0C0" }}><i className="fab fa-markdown"></i></a>
                         </div>
                     </div>
 
